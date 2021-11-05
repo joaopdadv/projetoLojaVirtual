@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.modo-claro{
+    background-color: rgb(255, 252, 232);
+    color:rgb(36, 36, 36);
+    transition: 0.5s;
+}
+
+.modo-escuro{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 80%;
+
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    background-color: grey;
+    padding: 4px;
+    border-radius: 4px;
+}
